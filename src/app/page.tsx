@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import QRCode from "qrcode";
 
 export default function App () {
-  const [url, setUrl] = useState('https://web.facebook.com/jpc.kintambo.7/?locale=fr_FR&_rdc=1&_rdr');
+  const [url, setUrl] = useState('https://www.instagram.com/precieuxmudibu');
   const [src, setSrc] = useState('');
 
   const generateQrCode = () => {
