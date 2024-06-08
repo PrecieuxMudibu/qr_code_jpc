@@ -8,6 +8,7 @@ export default function App () {
 
   const generateQrCode = () => {
     QRCode.toDataURL(url).then(setSrc)
+    // QRCode.toDataURL("BEGIN:VCARD FN:John Doe TEL:888-555-1234 EMAIL;TYPE=INTERNET:johndoe@gmail.com END:VCARD").then(setSrc)
   };
 
 
