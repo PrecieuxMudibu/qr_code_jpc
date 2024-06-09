@@ -79,16 +79,16 @@ const QRCodeVCards = () => {
     // Génération de la chaîne vCard
     const vCardString = `BEGIN:VCARD
 VERSION:3.0
-FN:Thomas Doe
+FN:Uliss Klaue
 TITLE:Software Engineer
 EMAIL:johndoe@example.com
-TEL:+888888888
+TEL:+33333333
 ADR:123 Main Street, Anytown, CA 12345
 NOTE:This is an example vCard
 END:VCARD`;
 
     // Génération du QR Code à partir de la chaîne vCard
-    QRCode.toDataURL(vCardString, { errorCorrectionLevel: 'H', size: 200 })
+    QRCode.toDataURL(vCardString)
       .then((dataURL) => {
         setVCardsData(dataURL);
       })
