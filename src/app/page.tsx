@@ -26,49 +26,6 @@
 // };
 
 
-// import React, { useEffect, useState } from 'react';
-// import QRCode from 'qrcode';
-
-// const QRCodeVCards = () => {
-//   const [vCardData, setVCardsData] = useState('');
-
-//   const handleGenerate = () => {
-//     // Génération de la chaîne vCard
-//     const vCardString = `BEGIN:VCARD
-//                         VERSION:3.0
-//                         FN:Précieux Mudibu
-//                         TITLE:Dévelopeur web
-//                         EMAIL:precieuxmudibu@itmafrica.com
-//                         TEL:+1234567890
-//                         ADR:Maniema 8, Kintambo
-//                         NOTE:Ne jamais abandonner
-//                         END:VCARD`;
-
-//     // Génération du QR Code à partir de la chaîne vCard
-//     QRCode.toDataURL(vCardString, { errorCorrectionLevel: 'H', size: 200 })
-//       .then((dataURL) => {
-//         setVCardsData(dataURL);
-//       })
-//       .catch((error) => {
-//         console.error('Error generating QR Code:', error);
-//       });
-//   };
-
-//     useEffect(()=>{
-//       handleGenerate()
-//     },[])
-
-//   return (
-//     <div>
-//     <button onClick={handleGenerate}>Générer QR Code vCard</button>
-//       {vCardData && <img src={vCardData} alt="QR Code vCard" />}
-//     </div>
-//   );
-// };
-
-// export default QRCodeVCards;
-
-
 import React, { useEffect, useState } from 'react';
 import QRCode from 'qrcode';
 
@@ -79,7 +36,7 @@ const QRCodeVCards = () => {
     // Génération de la chaîne vCard
     const vCardString = `BEGIN:VCARD
 VERSION:3.0
-FN:Uliss Klaue
+FN:Précieux Mudibu
 TITLE:Software Engineer
 EMAIL:johndoe@example.com
 TEL:+33333333
