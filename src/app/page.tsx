@@ -37,10 +37,10 @@ const QRCodeVCards = () => {
     const vCardString = `BEGIN:VCARD
 VERSION:3.0
 FN:Précieux Mudibu
-TITLE:Software Engineer
-EMAIL:johndoe@example.com
-TEL:+33333333
-ADR:123 Main Street, Anytown, CA 12345
+TITLE:Web developer
+EMAIL:mudibuprecieux@gmail.com
+TEL:+979544988
+ADR:8 Maniema, Anytown, CA 12345
 NOTE:This is an example vCard
 END:VCARD`;
 
